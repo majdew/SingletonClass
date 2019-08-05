@@ -79,6 +79,9 @@ public class SwingCalendar extends JFrame {
     }
     public static SwingCalendar getInstance(){
         if(calendar==null){
+            synchronized (SwingCalendar.class){
+
+            }
 
         }
         return calendar;
