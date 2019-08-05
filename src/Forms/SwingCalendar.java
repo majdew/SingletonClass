@@ -81,7 +81,7 @@ public class SwingCalendar extends JFrame {
         if(calendar==null){
             synchronized (SwingCalendar.class){
                 if(calendar==null){
-                    
+                    calendar=new SwingCalendar();
                 }
 
             }
